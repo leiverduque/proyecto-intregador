@@ -1,0 +1,38 @@
+@use "../abstracts/variables" as var;
+@use "../abstracts/mixins" as mix;
+
+.header {
+    grid-area: header;
+    background-color: var.$color04;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    height: 5rem;
+    padding: 0.2rem;
+    border-bottom: 2px solid var.$color01;
+
+    .header__logo {
+        font-size: 2rem;
+        cursor: pointer;
+
+        a {
+            color: var.$colorGrey;
+            padding-left: 1rem;
+        }
+
+        span {
+            color: var.$color01;
+        }
+    }
+}
+
+.header__img {
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+}

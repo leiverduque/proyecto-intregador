@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Proyecto Integrador del Bootcamp de Full Stack.">
+    <meta name="keywords" content="Envío rápido, gordita, pantalon, jeans, Short, cuotas, vestido, Nani, ropa, fiesta, casual, grande, pollera, clasico, elastizado, cuero,">
+    <meta name="author" content="Leiver Antonio Duque Castro" />
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <title>Leina fashión</title>
+</head>
+
+<body class="home">
+    <header class="header">
+        <h1 class="header__logo"><a href="./index.html">Leina fashión<span>.</span></a></h1>
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li><a href="./index.html">Tienda</a></li>
+                <li><a href="./about.html">Nosotros</a></li>
+                <li><a href="./contact.html" class="navbar__list--active">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="--empty"></div>
+        <div class="contact">
+            <div class="contact__form">
+                <form>
+                    <div class="form-flex">
+                        <div>
+                            <label for="first-name">Nombre*</label>
+                            <input type="text" id="first-name" name="first-name" required>
+                        </div>
+                        <div>
+                            <label for="last-name">Apellido *</label>
+                            <input type="text" id="last-name" name="last-name" required>
+                        </div>
+                    </div>
+                    <label for="number">Teléfono*</label>
+                    <input type="number" id="number" name="number" required>
+
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Mensaje*</label>
+                    <input type="text" id="message" name="message" required>
+
+                    <label for="additional-details">Comentario</label>
+                    <textarea id="additional-details" name="additional-details"></textarea>
+
+                    <input type="submit" value="Enviar">
+                </form>
+                <div class="contact__form__info">
+                    <h3>Información</h3>
+                    <br>
+                    <p><span class="material-symbols-outlined">location_on</span>Leandro N. Alem 4072, Provincia de Buenos Aires</p>
+                    <br>
+                    <p><span class="material-symbols-outlined">call</span> +54 (11) 3830-6467</p>
+                    <br>
+                    <p><span class="material-symbols-outlined">mail</span>LeinaFasshión1@gmail.com</p>
+                </div>
+            </div>
+            <div class="contact__help">
+                <h3>Consultas?</h3>
+                <p>Estamos acá para brindarte el mejor servicio, cualquier consulta háznosla saber.</p><br>
+                <div class="container">
+                    <div class="address__map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.2182027343606!2d-58.71543129543942!3d-34.54325727930222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd0d7e07c78b%3A0xf879e262f796e21a!2sPlaza%20de%20San%20Miguel!5e0!3m2!1ses-419!2sar!4v1701024457995!5m2!1ses-419!2sar"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                </div>
+            </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__links">
+                <a href="index.html">Tienda</a>
+                <a href="about.html">Nosotros</a>
+                <a href="contact.html">Contacto</a>
+            </div>
+            <div class="footer__media">
+                <a href="https://wa.me/541138306467"> <img src="./images/whatsapp logo_icon.svg" alt=""></a>
+                <a href="https://www.instagram.com/leina_fashion_/?igshid=MzMyNGUyNmU2YQ%3D%3D"> <img src="./images/instagram_icon.svg" alt=""></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <span>Copyright &copy;.</span>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

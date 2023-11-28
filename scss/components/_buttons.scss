@@ -1,0 +1,64 @@
+@use "../abstracts/variables" as var;
+@use "../abstracts/mixins" as mix;
+
+.button--add {
+    width: 40%;
+    cursor: pointer;
+    height: 2rem;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid rgb(156, 144, 238);
+    background-color: var.$colorAdd;
+    color: var.$colorGrey;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.button--add:hover {
+    border: 1px solid rgb(0, 58, 204);
+    background-color: rgb(50, 20, 197)
+}
+
+.button--remove {
+    width: 40%;
+    cursor: pointer;
+    height: 2rem;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid red;
+    background-color: var.$colorRemove;
+    color: var.$colorGrey;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.button--remove:hover {
+    border: 1px solid rgb(255, 88, 88);
+    background-color: #ff8e7a;
+}
+
+.button--remove:active,
+.button--add:active {
+    transform: translateY(1.5px)
+}
+
+
+.add--product {
+    cursor: pointer;
+    height: 2.5rem;
+    padding: 0.6rem 0.8rem;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid var.$color02;
+    background-color: var.$color03;
+    color: var.$colorGrey;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 1rem;
+
+    &:hover {
+        border: 1px solid var.$color04;
+        background-color: #58abff;
+        color: var.$colorWhite;
+    }
+}
